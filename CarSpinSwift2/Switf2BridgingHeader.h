@@ -2,8 +2,7 @@
 //  Switf2BridgingHeader.h
 //  CarSpinSwift2
 //
-//  Created by Mo DeJong on 3/11/16.
-//  Copyright © 2016 helpurock. All rights reserved.
+//  License terms defined in License.txt.
 //
 
 #ifndef Switf2BridgingHeader_h
