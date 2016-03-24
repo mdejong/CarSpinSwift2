@@ -67,6 +67,8 @@
 		3C8B2DB91C937484007080FF /* 7zAlloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B2D831C937484007080FF /* 7zAlloc.c */; };
 		3C8B2DBA1C937484007080FF /* 7zMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B2D851C937484007080FF /* 7zMain.c */; };
 		3C8B2DBC1C9374BB007080FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8B2DBB1C9374BB007080FF /* libz.tbd */; };
+		3CA5352D1CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5352A1CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.m */; };
+		3CA5352E1CA4B52D00086417 /* AVStreamEncodeDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5352C1CA4B52D00086417 /* AVStreamEncodeDecode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -189,6 +191,10 @@
 		3C8B2D841C937484007080FF /* 7zAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zAlloc.h; sourceTree = "<group>"; };
 		3C8B2D851C937484007080FF /* 7zMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zMain.c; sourceTree = "<group>"; };
 		3C8B2DBB1C9374BB007080FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3CA535291CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAnimatorH264AlphaPlayer.h; sourceTree = "<group>"; };
+		3CA5352A1CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAnimatorH264AlphaPlayer.m; sourceTree = "<group>"; };
+		3CA5352B1CA4B52D00086417 /* AVStreamEncodeDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVStreamEncodeDecode.h; sourceTree = "<group>"; };
+		3CA5352C1CA4B52D00086417 /* AVStreamEncodeDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVStreamEncodeDecode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +254,8 @@
 				3C8B2D191C937484007080FF /* AV7zApng2MvidResourceLoader.m */,
 				3C8B2D1A1C937484007080FF /* AV7zAppResourceLoader.h */,
 				3C8B2D1B1C937484007080FF /* AV7zAppResourceLoader.m */,
+				3CA535291CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.h */,
+				3CA5352A1CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.m */,
 				3C8B2D1C1C937484007080FF /* AVAnimatorLayer.h */,
 				3C8B2D1D1C937484007080FF /* AVAnimatorLayer.m */,
 				3C8B2D1E1C937484007080FF /* AVAnimatorLayerPrivate.h */,
@@ -315,6 +323,8 @@
 				3C8B2D5C1C937484007080FF /* MutableAttrString.m */,
 				3C8B2D5D1C937484007080FF /* SegmentedMappedData.h */,
 				3C8B2D5E1C937484007080FF /* SegmentedMappedData.m */,
+				3CA5352B1CA4B52D00086417 /* AVStreamEncodeDecode.h */,
+				3CA5352C1CA4B52D00086417 /* AVStreamEncodeDecode.m */,
 			);
 			path = AVAnimator;
 			sourceTree = "<group>";
@@ -463,7 +473,9 @@
 				3C8B2D951C937484007080FF /* AVFileUtil.m in Sources */,
 				3C8B2DB71C937484007080FF /* Ppmd8.c in Sources */,
 				3C8B2DA51C937484007080FF /* movdata.c in Sources */,
+				3CA5352E1CA4B52D00086417 /* AVStreamEncodeDecode.m in Sources */,
 				3C8B2DA71C937484007080FF /* SegmentedMappedData.m in Sources */,
+				3CA5352D1CA4B52D00086417 /* AVAnimatorH264AlphaPlayer.m in Sources */,
 				3C8B2DA91C937484007080FF /* 7zBuf.c in Sources */,
 				3C8B2D9F1C937484007080FF /* libapng.c in Sources */,
 				3C8B2DAD1C937484007080FF /* 7zIn.c in Sources */,
